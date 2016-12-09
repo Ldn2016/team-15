@@ -1,4 +1,5 @@
-
+*.*~
+#*.*#
 .idea/
 SaveTheChildren/.gitignore
 SaveTheChildren/.idea/compiler.xml
