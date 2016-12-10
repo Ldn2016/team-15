@@ -15,14 +15,15 @@
         android:layout_height="wrap_content"
         android:text="@string/upload"
         android:layout_weight="1"
-        android:elevation="0dp" />
+        android:onClick="upload" />
 
     <Button
         android:id="@+id/newReport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/new_report"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:onClick="newReport"/>
 
     <Button
         android:id="@+id/newStock"

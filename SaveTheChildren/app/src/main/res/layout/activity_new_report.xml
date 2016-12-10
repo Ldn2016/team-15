@@ -8,6 +8,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.cmamreport.savethechildren.newReport">
+    tools:context="com.cmamreport.savethechildren.NewReport">
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.cmamreport.savethechildren.NewAdmissionsFragment"
+        android:id="@+id/fragment" />
 </RelativeLayout>
